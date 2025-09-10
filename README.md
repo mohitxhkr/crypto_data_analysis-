@@ -7,22 +7,20 @@
 
 ## 📂 Project Structure
 
-ds_MohitKumarGupta/
-├── notebook_1.ipynb # Main Colab notebook (this file)
-├── csv_files/ # Contains input & processed CSV files
-│ ├── trader_data.csv # Raw historical trader data (input)
-│ ├── fear_greed.csv # Market sentiment (input)
-│ ├── daily_metrics.csv # Aggregated trader features (output)
-│ └── merged_daily_with_sentiment.csv # Trader features + sentiment (output)
-├── outputs/ # Visualization outputs
-│ ├── boxplot_pnl_by_sentiment.png
-│ └── hist_leverage_by_sentiment.png
-├── ds_report.pdf # Final PDF report (root level, required)
-└── README.md # Project documentation
-
-markdown
-Copy code
-
+```
+ds_MohitKumarGupta/                 # <-- Folder must be named ds_<your_name>
+├── notebook_1.ipynb                # Main Colab notebook (shared as "Viewer" link)
+├── csv_files/                      # Input + processed datasets
+│   ├── trader_data.csv             # Raw trader data (input)
+│   ├── fear_greed.csv              # Sentiment data (input)
+│   ├── daily_metrics.csv           # Aggregated daily metrics (output)
+│   └── merged_daily_with_sentiment.csv  # Joined trader+sentiment dataset (output)
+├── outputs/                        # Visualization outputs
+│   ├── boxplot_pnl_by_sentiment.png
+│   └── hist_leverage_by_sentiment.png
+├── ds_report.pdf                   # Final PDF report (must be at root, not inside outputs)
+└── README.md                       # Project documentation
+```
 ---
 
 ## 🚀 How to Run
